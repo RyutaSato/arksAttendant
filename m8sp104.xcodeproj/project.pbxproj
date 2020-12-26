@@ -11,6 +11,18 @@
 		8415ADA125931BC80095147A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415ADA025931BC80095147A /* ContentView.swift */; };
 		8415ADA325931BC90095147A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8415ADA225931BC90095147A /* Assets.xcassets */; };
 		8415ADA625931BC90095147A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8415ADA525931BC90095147A /* Preview Assets.xcassets */; };
+		8415ADB425931F0C0095147A /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415ADB325931F0C0095147A /* ItemList.swift */; };
+		8415ADBD259333CA0095147A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415ADBC259333CA0095147A /* HomeView.swift */; };
+		8415ADC0259333D60095147A /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415ADBF259333D60095147A /* ItemView.swift */; };
+		8415ADC3259333E40095147A /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415ADC2259333E40095147A /* MissionView.swift */; };
+		8415ADC6259333F40095147A /* SpecialAbilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415ADC5259333F40095147A /* SpecialAbilityView.swift */; };
+		8415ADC9259333FE0095147A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415ADC8259333FE0095147A /* SettingView.swift */; };
+		8486EE7A2597590D00D894E2 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EE792597590D00D894E2 /* ItemRow.swift */; };
+		8486EE7D25975A5A00D894E2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EE7C25975A5A00D894E2 /* Category.swift */; };
+		8486EE81259770A900D894E2 /* EventNowRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EE80259770A900D894E2 /* EventNowRow.swift */; };
+		8486EE86259771C300D894E2 /* EventNextRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EE85259771C300D894E2 /* EventNextRow.swift */; };
+		8486EE8925979AEA00D894E2 /* WeponsModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EE8825979AEA00D894E2 /* WeponsModelData.swift */; };
+		8486EE8E2597B0BB00D894E2 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 8486EE8D2597B0BB00D894E2 /* sample.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +32,18 @@
 		8415ADA225931BC90095147A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8415ADA525931BC90095147A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8415ADA725931BC90095147A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8415ADB325931F0C0095147A /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
+		8415ADBC259333CA0095147A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8415ADBF259333D60095147A /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		8415ADC2259333E40095147A /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		8415ADC5259333F40095147A /* SpecialAbilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialAbilityView.swift; sourceTree = "<group>"; };
+		8415ADC8259333FE0095147A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		8486EE792597590D00D894E2 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		8486EE7C25975A5A00D894E2 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		8486EE80259770A900D894E2 /* EventNowRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventNowRow.swift; sourceTree = "<group>"; };
+		8486EE85259771C300D894E2 /* EventNextRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventNextRow.swift; sourceTree = "<group>"; };
+		8486EE8825979AEA00D894E2 /* WeponsModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeponsModelData.swift; sourceTree = "<group>"; };
+		8486EE8D2597B0BB00D894E2 /* sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +76,12 @@
 		8415AD9D25931BC80095147A /* m8sp104 */ = {
 			isa = PBXGroup;
 			children = (
-				8415AD9E25931BC80095147A /* m8sp104App.swift */,
-				8415ADA025931BC80095147A /* ContentView.swift */,
+				8415ADAE25931BD60095147A /* Model */,
+				8415ADAF25931BDF0095147A /* View */,
+				8415ADB025931BEB0095147A /* ViewModel */,
 				8415ADA225931BC90095147A /* Assets.xcassets */,
+				8415ADA025931BC80095147A /* ContentView.swift */,
+				8415AD9E25931BC80095147A /* m8sp104App.swift */,
 				8415ADA725931BC90095147A /* Info.plist */,
 				8415ADA425931BC90095147A /* Preview Content */,
 			);
@@ -67,6 +94,47 @@
 				8415ADA525931BC90095147A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8415ADAE25931BD60095147A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8415ADB325931F0C0095147A /* ItemList.swift */,
+				8486EE7C25975A5A00D894E2 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8415ADAF25931BDF0095147A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8486EE7F2597708800D894E2 /* HomeRow */,
+				8486EE792597590D00D894E2 /* ItemRow.swift */,
+				8415ADBC259333CA0095147A /* HomeView.swift */,
+				8415ADBF259333D60095147A /* ItemView.swift */,
+				8415ADC2259333E40095147A /* MissionView.swift */,
+				8415ADC5259333F40095147A /* SpecialAbilityView.swift */,
+				8415ADC8259333FE0095147A /* SettingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8415ADB025931BEB0095147A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8486EE8825979AEA00D894E2 /* WeponsModelData.swift */,
+				8486EE8D2597B0BB00D894E2 /* sample.json */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8486EE7F2597708800D894E2 /* HomeRow */ = {
+			isa = PBXGroup;
+			children = (
+				8486EE80259770A900D894E2 /* EventNowRow.swift */,
+				8486EE85259771C300D894E2 /* EventNextRow.swift */,
+			);
+			path = HomeRow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +196,7 @@
 			files = (
 				8415ADA625931BC90095147A /* Preview Assets.xcassets in Resources */,
 				8415ADA325931BC90095147A /* Assets.xcassets in Resources */,
+				8486EE8E2597B0BB00D894E2 /* sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +207,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8415ADC3259333E40095147A /* MissionView.swift in Sources */,
 				8415ADA125931BC80095147A /* ContentView.swift in Sources */,
+				8415ADC0259333D60095147A /* ItemView.swift in Sources */,
+				8415ADC9259333FE0095147A /* SettingView.swift in Sources */,
+				8415ADB425931F0C0095147A /* ItemList.swift in Sources */,
+				8415ADC6259333F40095147A /* SpecialAbilityView.swift in Sources */,
+				8486EE7A2597590D00D894E2 /* ItemRow.swift in Sources */,
+				8415ADBD259333CA0095147A /* HomeView.swift in Sources */,
 				8415AD9F25931BC80095147A /* m8sp104App.swift in Sources */,
+				8486EE81259770A900D894E2 /* EventNowRow.swift in Sources */,
+				8486EE7D25975A5A00D894E2 /* Category.swift in Sources */,
+				8486EE86259771C300D894E2 /* EventNextRow.swift in Sources */,
+				8486EE8925979AEA00D894E2 /* WeponsModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.maron8saton.m8sp104;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +382,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.maron8saton.m8sp104;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
