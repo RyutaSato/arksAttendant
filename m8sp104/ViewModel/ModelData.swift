@@ -1,14 +1,13 @@
 //
-//  Category.swift
+//  ModelData.swift
 //  m8sp104
 //
-//  Created by 佐藤竜太 on 2020/12/26.
+//  Created by 佐藤竜太 on 2020/12/28.
 //
 
 import Foundation
-import SwiftUI
 
-struct Category: Hashable, Codable {
+struct Cate: Hashable, Codable {
     var id: Int
     var name: String
     var rare: Int
@@ -34,16 +33,4 @@ struct Category: Hashable, Codable {
         var catalistId: Int
     }
     
-}
-enum ItemType: String, Codable{
-    
-    case weapons
-    case units
-    case pets
-    case rings
-    case items
-    case photonArts
-    case costumes
-    case techniques
-    case equipments
 }
