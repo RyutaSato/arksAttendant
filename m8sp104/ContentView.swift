@@ -11,11 +11,11 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             TabView{
-                HomeView()
-                    .tabItem {
-                        Image(systemName: "1.square.fill")
-                        Text("Home")
-                    }
+//                HomeView()
+//                    .tabItem {
+//                        Image(systemName: "1.square.fill")
+//                        Text("Home")
+//                    }
                 ItemView()
                     .tabItem {
                         Image(systemName: "2.square.fill")
@@ -44,5 +44,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+        //.environmentObject(GetEventData)
     }
 }

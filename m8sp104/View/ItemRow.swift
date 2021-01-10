@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct ItemRow: View {
-
+    private var name = "ソード"
+    private var specific = "打:230 射:0 法:0 HP:+20"
+    //@Binding var itemSpecific:Category
     var body: some View {
+
         
         HStack{
             Image("sword")
@@ -18,10 +21,10 @@ struct ItemRow: View {
                 .padding(5)
             Spacer()
             VStack{
-                Text("ソード")
+                Text(name)
                     .bold()
                     .frame(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                Text("打:230 射:0 法:0 HP:+20")
+                Text(specific)
             }
             Spacer()
         }
@@ -31,6 +34,6 @@ struct ItemRow: View {
 struct ItemRow_Previews: PreviewProvider {
     static var previews: some View {
         ItemRow()
-            //.previewLayout(.fixed(width: 300, height: 60))
+            .previewLayout(.fixed(width: 300, height: 60))
     }
 }

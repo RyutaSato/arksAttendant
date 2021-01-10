@@ -11,26 +11,26 @@ struct Cate: Hashable, Codable {
     var id: Int
     var name: String
     var rare: Int
-    var type: ItemType
+    var type: String
     var price: Int?
-    var sellAble: Bool?
-    var discription: String
-    private var parameter: Parameter
+    var sellAble: Bool = true
+    var discription: String = ""
+    private var parameter: Parameter?
     
     struct Parameter: Hashable,Codable{
         var id: Int
-        var division: String
+        var weponType: String
         var name: String
-        var hp: Int
-        var pp: Int
-        var pa: Int
-        var sa: Int
-        var ma: Int
+        var hp: Int = 0
+        var pp: Int = 0
+        var powerAttack: Int = 0
+        var shootAttack: Int = 0
+        var magicAttack: Int = 0
         var skill: Int
-        var pd: Int
-        var sd: Int
-        var md: Int
-        var catalistId: Int
+        var powerDefence: Int = 0
+        var shootDefence: Int = 0
+        var magicDefence: Int = 0
+        var catalist: String
     }
     
 }

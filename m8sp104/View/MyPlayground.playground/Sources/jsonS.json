@@ -1,0 +1,12 @@
+{
+  "status" : {
+    "happy" : true,
+    "playing" : true
+  },
+  "id" : 1,
+  "name" : "ネコノヒー",
+  "toys" : [
+    "ペット小屋",
+    "ぐるぐるタワー"
+  ]
+}

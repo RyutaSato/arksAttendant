@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct HomeView: View {
-    let listNum = 5
-    @State var boolset = false
-    var nextEmergencyName = "原初の闇"
-    var nextEmergencyName2 = "ssss2020"
+    
+//    let listNum = 5
+//    @State var boolset = false
+//    var nextEmergencyName = "原初の闇"
+//    var nextEmergencyName2 = "ssss2020"
+    @EnvironmentObject var getEventData: GetEventData
+    var eventDate:EventDate
+    
+    var eventIndex: Int {
+        getEventData.eventDates.firstIndex(where: {$0.id == eventDate.id })!
+    }
+    
     var body: some View {
-        ScrollView{
+        ScrollView {
             VStack{
-                Text(nextEmergencyName + "  is comming")
+                Text(getEventData.eventDates[eventIndex + 1].name)
                     .padding()
                 Text("この後のイベント")
                     .font(.headline)
@@ -23,33 +31,34 @@ struct HomeView: View {
                 HStack{
                     Text("12月24日 21:00")
                     Spacer()
-                    Text(nextEmergencyName2)
+                    //Text(nextEmergencyName2)
                 }
                 .padding()
                 HStack{
                     Text("12月24日 21:00")
                     Spacer()
-                    Text(nextEmergencyName2)
+                    //Text(nextEmergencyName2)
                 }
                 .padding()
-                EventNowRow()
-                    .padding()
-                EventNextRow()
-                    .padding()
+//                EventNowRow()
+//                    .padding()
+//                EventNextRow()
+//                    .padding()
             }
-            
         }
     }
 }
+
 struct aaaa: View{
     var body: some View{
         Text("aa")
     }
 }
 
-
 struct HomeView_Previews: PreviewProvider {
+    static let getEventData = GetEventData()
     static var previews: some View {
-        HomeView()
+        HomeView(eventDate: getEventData.eventDates[0])
+            .environmentObject(getEventData)
     }
 }

@@ -36,6 +36,12 @@ struct Provider: TimelineProvider {
         let timeline = Timeline(entries: entries, policy: .atEnd)
         completion(timeline)
     }
+//    func InitEventDates()->DateComponents{
+//        var _eventDates:[EventDate] = getData()
+//        var initEventDates = DateComponents(timeZone: .current, year: 2000 + (_eventDates.startDate), month: <#T##Int?#>, day: <#T##Int?#>, hour: <#T##Int?#>, minute: <#T##Int?#>, second: <#T##Int?#>, nanosecond: <#T##Int?#>, weekday: <#T##Int?#>, weekdayOrdinal: <#T##Int?#>, quarter: <#T##Int?#>, weekOfMonth: <#T##Int?#>, weekOfYear: <#T##Int?#>, yearForWeekOfYear: <#T##Int?#>)
+//
+//
+//    }
 }
 
 struct SimpleEntry: TimelineEntry {
@@ -44,11 +50,10 @@ struct SimpleEntry: TimelineEntry {
 
 struct m8sp104widgetEntryView : View {
     var entry: Provider.Entry
-    let backdarkred = "backDarkRed"
     //ここから
     var body: some View {
         ZStack{
-            Image(backdarkred)
+            
             VStack{
                 HStack{
                     Text(entry.date, style: .time)
@@ -68,7 +73,7 @@ struct m8sp104widgetEntryView : View {
             }
             .font(.body)
         }
-        .foregroundColor(.white)
+        //.foregroundColor(.white)
     }
     //ここまで
 }

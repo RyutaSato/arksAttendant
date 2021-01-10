@@ -1,0 +1,13 @@
+[
+    {
+        "id": 4
+        "rare": 1,
+        "weponType": "sword",
+        "name": "ソード-NT",
+        "powerAttack": 204,
+        "powerAttackMax": 275,
+        "requiredParameter": 1,
+        "potentialAbility": "新生の理"
+        "discription": "この武器はこのゲームの中で最も弱い武器です．"
+    }
+]

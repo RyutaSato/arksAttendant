@@ -29,6 +29,14 @@
 		8486EE9F2597D1AB00D894E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8486EE9E2597D1AB00D894E2 /* Assets.xcassets */; };
 		8486EEA32597D1AB00D894E2 /* m8sp104widgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8486EE952597D1AA00D894E2 /* m8sp104widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8486EEAB2599E87000D894E2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EEAA2599E87000D894E2 /* ModelData.swift */; };
+		8486EEB1259AE59F00D894E2 /* swordData2.json in Resources */ = {isa = PBXBuildFile; fileRef = 8486EEB0259AE59E00D894E2 /* swordData2.json */; };
+		8486EEB8259CD45200D894E2 /* aaa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8486EEB6259CD45100D894E2 /* aaa.xcdatamodeld */; };
+		8486EEBC25A260B200D894E2 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EEBB25A260B200D894E2 /* FavoriteButton.swift */; };
+		8486EEC025A30A2B00D894E2 /* swordData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8486EEBF25A30A2B00D894E2 /* swordData.json */; };
+		8486EECC25A3200900D894E2 /* GetEventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EECB25A3200900D894E2 /* GetEventData.swift */; };
+		8486EECF25A320AB00D894E2 /* GetEventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EECB25A3200900D894E2 /* GetEventData.swift */; };
+		8486EED325A327B700D894E2 /* eventDates.json in Resources */ = {isa = PBXBuildFile; fileRef = 8486EED225A327B700D894E2 /* eventDates.json */; };
+		8486EED625A332B800D894E2 /* eventDates.json in Resources */ = {isa = PBXBuildFile; fileRef = 8486EED225A327B700D894E2 /* eventDates.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +89,14 @@
 		8486EE9E2597D1AB00D894E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8486EEA02597D1AB00D894E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8486EEAA2599E87000D894E2 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		8486EEB0259AE59E00D894E2 /* swordData2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = swordData2.json; path = ../../../jsonfile/swordData2.json; sourceTree = "<group>"; };
+		8486EEB7259CD45100D894E2 /* aaa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = aaa.xcdatamodel; sourceTree = "<group>"; };
+		8486EEBB25A260B200D894E2 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		8486EEBF25A30A2B00D894E2 /* swordData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = swordData.json; sourceTree = "<group>"; };
+		8486EECB25A3200900D894E2 /* GetEventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetEventData.swift; sourceTree = "<group>"; };
+		8486EED225A327B700D894E2 /* eventDates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eventDates.json; sourceTree = "<group>"; usesTabs = 0; };
+		8486EEDE25A59F9300D894E2 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8486EEE125A5D10800D894E2 /* EventDataInput.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EventDataInput.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				8415ADB325931F0C0095147A /* ItemList.swift */,
+				8486EECB25A3200900D894E2 /* GetEventData.swift */,
 				8486EE7C25975A5A00D894E2 /* Category.swift */,
 			);
 			path = Model;
@@ -162,8 +179,12 @@
 				8415ADBC259333CA0095147A /* HomeView.swift */,
 				8415ADBF259333D60095147A /* ItemView.swift */,
 				8415ADC2259333E40095147A /* MissionView.swift */,
+				8486EEE125A5D10800D894E2 /* EventDataInput.playground */,
+				8486EEDE25A59F9300D894E2 /* MyPlayground.playground */,
 				8415ADC5259333F40095147A /* SpecialAbilityView.swift */,
+				8486EEBB25A260B200D894E2 /* FavoriteButton.swift */,
 				8415ADC8259333FE0095147A /* SettingView.swift */,
+				8486EEB6259CD45100D894E2 /* aaa.xcdatamodeld */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -172,6 +193,9 @@
 			isa = PBXGroup;
 			children = (
 				8486EE8825979AEA00D894E2 /* WeponsModelData.swift */,
+				8486EEB0259AE59E00D894E2 /* swordData2.json */,
+				8486EEBF25A30A2B00D894E2 /* swordData.json */,
+				8486EED225A327B700D894E2 /* eventDates.json */,
 				8486EE8D2597B0BB00D894E2 /* sample.json */,
 				8486EEAA2599E87000D894E2 /* ModelData.swift */,
 			);
@@ -286,9 +310,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8486EED325A327B700D894E2 /* eventDates.json in Resources */,
+				8486EEC025A30A2B00D894E2 /* swordData.json in Resources */,
 				8415ADA625931BC90095147A /* Preview Assets.xcassets in Resources */,
 				8415ADA325931BC90095147A /* Assets.xcassets in Resources */,
 				8486EE8E2597B0BB00D894E2 /* sample.json in Resources */,
+				8486EEB1259AE59F00D894E2 /* swordData2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +323,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8486EED625A332B800D894E2 /* eventDates.json in Resources */,
 				8486EE9F2597D1AB00D894E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,10 +341,13 @@
 				8415ADC9259333FE0095147A /* SettingView.swift in Sources */,
 				8415ADB425931F0C0095147A /* ItemList.swift in Sources */,
 				8415ADC6259333F40095147A /* SpecialAbilityView.swift in Sources */,
+				8486EEB8259CD45200D894E2 /* aaa.xcdatamodeld in Sources */,
 				8486EE7A2597590D00D894E2 /* ItemRow.swift in Sources */,
 				8415ADBD259333CA0095147A /* HomeView.swift in Sources */,
 				8415AD9F25931BC80095147A /* m8sp104App.swift in Sources */,
+				8486EECC25A3200900D894E2 /* GetEventData.swift in Sources */,
 				8486EE81259770A900D894E2 /* EventNowRow.swift in Sources */,
+				8486EEBC25A260B200D894E2 /* FavoriteButton.swift in Sources */,
 				8486EE7D25975A5A00D894E2 /* Category.swift in Sources */,
 				8486EE86259771C300D894E2 /* EventNextRow.swift in Sources */,
 				8486EE8925979AEA00D894E2 /* WeponsModelData.swift in Sources */,
@@ -329,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8486EE9D2597D1AA00D894E2 /* m8sp104widget.swift in Sources */,
+				8486EECF25A320AB00D894E2 /* GetEventData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,6 +610,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8486EEB6259CD45100D894E2 /* aaa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8486EEB7259CD45100D894E2 /* aaa.xcdatamodel */,
+			);
+			currentVersion = 8486EEB7259CD45100D894E2 /* aaa.xcdatamodel */;
+			path = aaa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8415AD9325931BC70095147A /* Project object */;
 }

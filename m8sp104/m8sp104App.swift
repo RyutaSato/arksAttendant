@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct m8sp104App: App {
+    @StateObject private var getEventData = GetEventData()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(getEventData)
         }
     }
 }

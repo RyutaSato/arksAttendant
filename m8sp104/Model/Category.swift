@@ -11,16 +11,16 @@ import SwiftUI
 struct Category: Hashable, Codable {
     var id: Int
     var name: String
-    var rare: Int
-    var type: ItemType
-    var price: Int?
-    var sellAble: Bool?
-    var discription: String
+    var rare: Int = 0
+    var type: String = ""
+    var price: Int = 0
+    var sellAble: Bool = true
+    var discription: String = ""
     private var parameter: Parameter
     
     struct Parameter: Hashable,Codable{
         var id: Int
-        var division: String
+        var division: String = ""
         var name: String
         var hp: Int
         var pp: Int

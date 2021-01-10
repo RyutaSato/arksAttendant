@@ -6,22 +6,30 @@
 //
 
 import Foundation
-var wepons: [Category] = load("weponModelData.json")
+import Combine
+//var wepons: [Category] = load("weponModelData.json")
 
+/*
+final class WeponsModelData: ObservableObject {
+    @Published var swordData: [Category] = load("swordData.json")
+}
 
 func load<T: Decodable>(_ filename: String) -> T{
     let data :Data
-    guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
+    //get pass of JSONfile added to the project
+    guard let file = Bundle.main.url(forResource: filename, withExtension: "json")
     else{
         fatalError("Couldn't find \(filename) in main bundle.")
     }
     
+    //read context of JSONfile to "data" property
     do{
         data = try Data(contentsOf: file)
     }catch{
         fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
     }
     
+    //JSON decode process
     do{
         let decoder = JSONDecoder()
         return try decoder.decode(T.self, from: data)
@@ -29,3 +37,5 @@ func load<T: Decodable>(_ filename: String) -> T{
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
 }
+
+*/
