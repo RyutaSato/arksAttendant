@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ItemView: View {
+    
+    let eventDates: [EventDate] = load("eventDates.json")
     var weaponspecificview = WeaponSpecificView()
     @State private var showFavoritesOnly = true
     @State private var serchItems = ""
@@ -37,6 +39,10 @@ struct WeaponSpecificView: View {
         Text("aaaaa")
     }
 }
+private func loadItemData() -> String {
+    return "aa"
+}
+
 
 struct ItemView_Previews: PreviewProvider {
     static var previews: some View {

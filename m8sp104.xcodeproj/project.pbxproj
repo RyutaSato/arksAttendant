@@ -18,11 +18,9 @@
 		8415ADC6259333F40095147A /* SpecialAbilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415ADC5259333F40095147A /* SpecialAbilityView.swift */; };
 		8415ADC9259333FE0095147A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415ADC8259333FE0095147A /* SettingView.swift */; };
 		8486EE7A2597590D00D894E2 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EE792597590D00D894E2 /* ItemRow.swift */; };
-		8486EE7D25975A5A00D894E2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EE7C25975A5A00D894E2 /* Category.swift */; };
 		8486EE81259770A900D894E2 /* EventNowRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EE80259770A900D894E2 /* EventNowRow.swift */; };
 		8486EE86259771C300D894E2 /* EventNextRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EE85259771C300D894E2 /* EventNextRow.swift */; };
 		8486EE8925979AEA00D894E2 /* WeponsModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EE8825979AEA00D894E2 /* WeponsModelData.swift */; };
-		8486EE8E2597B0BB00D894E2 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 8486EE8D2597B0BB00D894E2 /* sample.json */; };
 		8486EE982597D1AA00D894E2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8486EE972597D1AA00D894E2 /* WidgetKit.framework */; };
 		8486EE9A2597D1AA00D894E2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8486EE992597D1AA00D894E2 /* SwiftUI.framework */; };
 		8486EE9D2597D1AA00D894E2 /* m8sp104widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EE9C2597D1AA00D894E2 /* m8sp104widget.swift */; };
@@ -33,8 +31,6 @@
 		8486EEB8259CD45200D894E2 /* aaa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8486EEB6259CD45100D894E2 /* aaa.xcdatamodeld */; };
 		8486EEBC25A260B200D894E2 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EEBB25A260B200D894E2 /* FavoriteButton.swift */; };
 		8486EEC025A30A2B00D894E2 /* swordData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8486EEBF25A30A2B00D894E2 /* swordData.json */; };
-		8486EECC25A3200900D894E2 /* GetEventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EECB25A3200900D894E2 /* GetEventData.swift */; };
-		8486EECF25A320AB00D894E2 /* GetEventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486EECB25A3200900D894E2 /* GetEventData.swift */; };
 		8486EED325A327B700D894E2 /* eventDates.json in Resources */ = {isa = PBXBuildFile; fileRef = 8486EED225A327B700D894E2 /* eventDates.json */; };
 		8486EED625A332B800D894E2 /* eventDates.json in Resources */ = {isa = PBXBuildFile; fileRef = 8486EED225A327B700D894E2 /* eventDates.json */; };
 /* End PBXBuildFile section */
@@ -77,11 +73,9 @@
 		8415ADC5259333F40095147A /* SpecialAbilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialAbilityView.swift; sourceTree = "<group>"; };
 		8415ADC8259333FE0095147A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		8486EE792597590D00D894E2 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
-		8486EE7C25975A5A00D894E2 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		8486EE80259770A900D894E2 /* EventNowRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventNowRow.swift; sourceTree = "<group>"; };
 		8486EE85259771C300D894E2 /* EventNextRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventNextRow.swift; sourceTree = "<group>"; };
 		8486EE8825979AEA00D894E2 /* WeponsModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeponsModelData.swift; sourceTree = "<group>"; };
-		8486EE8D2597B0BB00D894E2 /* sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
 		8486EE952597D1AA00D894E2 /* m8sp104widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = m8sp104widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		8486EE972597D1AA00D894E2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		8486EE992597D1AA00D894E2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -93,7 +87,6 @@
 		8486EEB7259CD45100D894E2 /* aaa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = aaa.xcdatamodel; sourceTree = "<group>"; };
 		8486EEBB25A260B200D894E2 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		8486EEBF25A30A2B00D894E2 /* swordData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = swordData.json; sourceTree = "<group>"; };
-		8486EECB25A3200900D894E2 /* GetEventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetEventData.swift; sourceTree = "<group>"; };
 		8486EED225A327B700D894E2 /* eventDates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eventDates.json; sourceTree = "<group>"; usesTabs = 0; };
 		8486EEDE25A59F9300D894E2 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8486EEE125A5D10800D894E2 /* EventDataInput.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EventDataInput.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -165,8 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				8415ADB325931F0C0095147A /* ItemList.swift */,
-				8486EECB25A3200900D894E2 /* GetEventData.swift */,
-				8486EE7C25975A5A00D894E2 /* Category.swift */,
+				8486EEAA2599E87000D894E2 /* ModelData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -196,8 +188,6 @@
 				8486EEB0259AE59E00D894E2 /* swordData2.json */,
 				8486EEBF25A30A2B00D894E2 /* swordData.json */,
 				8486EED225A327B700D894E2 /* eventDates.json */,
-				8486EE8D2597B0BB00D894E2 /* sample.json */,
-				8486EEAA2599E87000D894E2 /* ModelData.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -314,7 +304,6 @@
 				8486EEC025A30A2B00D894E2 /* swordData.json in Resources */,
 				8415ADA625931BC90095147A /* Preview Assets.xcassets in Resources */,
 				8415ADA325931BC90095147A /* Assets.xcassets in Resources */,
-				8486EE8E2597B0BB00D894E2 /* sample.json in Resources */,
 				8486EEB1259AE59F00D894E2 /* swordData2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,10 +334,8 @@
 				8486EE7A2597590D00D894E2 /* ItemRow.swift in Sources */,
 				8415ADBD259333CA0095147A /* HomeView.swift in Sources */,
 				8415AD9F25931BC80095147A /* m8sp104App.swift in Sources */,
-				8486EECC25A3200900D894E2 /* GetEventData.swift in Sources */,
 				8486EE81259770A900D894E2 /* EventNowRow.swift in Sources */,
 				8486EEBC25A260B200D894E2 /* FavoriteButton.swift in Sources */,
-				8486EE7D25975A5A00D894E2 /* Category.swift in Sources */,
 				8486EE86259771C300D894E2 /* EventNextRow.swift in Sources */,
 				8486EE8925979AEA00D894E2 /* WeponsModelData.swift in Sources */,
 				8486EEAB2599E87000D894E2 /* ModelData.swift in Sources */,
@@ -360,7 +347,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8486EE9D2597D1AA00D894E2 /* m8sp104widget.swift in Sources */,
-				8486EECF25A320AB00D894E2 /* GetEventData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

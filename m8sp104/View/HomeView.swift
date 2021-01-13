@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     
+    
 //    let listNum = 5
 //    @State var boolset = false
 //    var nextEmergencyName = "原初の闇"
@@ -25,6 +26,7 @@ struct HomeView: View {
             VStack{
                 Text(getEventData.eventDates[eventIndex + 1].name)
                     .padding()
+                Text(loadDateData())
                 Text("この後のイベント")
                     .font(.headline)
                     .foregroundColor(Color.black)
@@ -48,7 +50,15 @@ struct HomeView: View {
         }
     }
 }
-
+private func loadDateData() -> String{
+    let dateFormatter = DateFormatter()
+    dateFormatter.timeZone = TimeZone(identifier: "Asia/Tokyo")
+    dateFormatter.locale = Locale(identifier: "ja_JP")
+    dateFormatter.calendar = Calendar(identifier: .gregorian)
+    dateFormatter.dateFormat = "yyyy-MM-dd HH:mm"
+    let dateString = dateFormatter.string(from: Date())
+    return dateString
+}
 struct aaaa: View{
     var body: some View{
         Text("aa")

@@ -9,11 +9,9 @@ import Foundation
 import Combine
 //var wepons: [Category] = load("weponModelData.json")
 
-/*
-final class WeponsModelData: ObservableObject {
-    @Published var swordData: [Category] = load("swordData.json")
-}
 
+
+/*
 func load<T: Decodable>(_ filename: String) -> T{
     let data :Data
     //get pass of JSONfile added to the project

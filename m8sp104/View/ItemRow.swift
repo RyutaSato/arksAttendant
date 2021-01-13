@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ItemRow: View {
+    //@EnvironmentObject var getWeponsModelData: GetWeponsModelData
+    //private let weponSpecific = Category(from: load("swordData.json")) as! Decoder
     private var name = "ソード"
     private var specific = "打:230 射:0 法:0 HP:+20"
     //@Binding var itemSpecific:Category
