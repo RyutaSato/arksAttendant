@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct ItemView: View {
-    
-    let eventDates: [EventDate] = load("eventDates.json")
-    var weaponspecificview = WeaponSpecificView()
+    let weaponParametor: [WeaponParametor] = load("swordData.json")
+    //@EnvironmentObject var getWeaponModelData = GetWeaponModelData()
+    //var weaponspecificview = WeaponSpecificView(weaponspecificdata: weaponParametor)
     @State private var showFavoritesOnly = true
     @State private var serchItems = ""
     var body: some View {
@@ -22,7 +22,8 @@ struct ItemView: View {
                     
                 List(1..<20) { index in
                     NavigationLink(
-                        destination: weaponspecificview,
+                        destination: //weaponspecificview
+                        EmptyView(),
                         label: {
                             ItemRow()
                         })
@@ -34,7 +35,12 @@ struct ItemView: View {
         }
     }
 }
+private func loadWeaponParametor()->WeaponParametor{
+    _ = GetWeaponModelData()
+    
+}
 struct WeaponSpecificView: View {
+    let weaponspecificdata:WeaponParametor
     var body: some View{
         Text("aaaaa")
     }
@@ -45,9 +51,8 @@ private func loadItemData() -> String {
 
 
 struct ItemView_Previews: PreviewProvider {
+    static let getWeaponModelData = GetWeaponModelData()
     static var previews: some View {
-        Group {
-            ItemView()
-        }
+        ItemView(getWeaponModelData.swordData[0])
     }
 }

@@ -11,8 +11,8 @@ import Combine
 class GetEventData: ObservableObject {
     @Published var eventDates: [EventDate] = load("eventDates.json")
 }
-class GetWeponsModelData: ObservableObject {
-    @Published var swordData: [Category] = load("swordData.json")
+class GetWeaponModelData: ObservableObject {
+    @Published var swordData: [WeaponParametor] = load("swordData.json")
 }
 struct Category: Hashable, Codable {
     var id: Int
@@ -59,23 +59,42 @@ struct Cate: Hashable, Codable {
     var price: Int?
     var sellAble: Bool = true
     var discription: String = ""
-    private var parameter: Parameter?
-    
-    struct Parameter: Hashable,Codable{
-        var id: Int
-        var weponType: String
-        var name: String
-        var hp: Int = 0
-        var pp: Int = 0
-        var powerAttack: Int = 0
-        var shootAttack: Int = 0
-        var magicAttack: Int = 0
-        var skill: Int
-        var powerDefence: Int = 0
-        var shootDefence: Int = 0
-        var magicDefence: Int = 0
-        var catalist: String
-    }
+    private var parameterId: Int?
+}
+struct WeaponParametor: Hashable,Codable{
+    var id: Int
+    var weponType: String
+    var name: String
+    var hp: Int = 0
+    var pp: Int = 0
+    var powerAttack: Int = 0
+    var shootAttack: Int = 0
+    var magicAttack: Int = 0
+    var powerAttackMax: Int = 0
+    var shootAttackMax: Int = 0
+    var magicAttackMax: Int = 0
+    var skillId: Int = 0
+    var powerDefence: Int = 0
+    var shootDefence: Int = 0
+    var magicDefence: Int = 0
+    var catalist: String = ""
+}
+struct DefenceParametor: Hashable,Codable{
+    var id: Int
+    var defenceType: String
+    var name: String
+    var hp: Int = 0
+    var pp: Int = 0
+    var powerAttack: Int = 0
+    var shootAttack: Int = 0
+    var magicAttack: Int = 0
+    var skillId: Int = 0
+    var powerDefence: Int = 0
+    var shootDefence: Int = 0
+    var magicDefence: Int = 0
+    var powerDefenceMax: Int = 0
+    var shootDefenceMax: Int = 0
+    var magicDefenceMax: Int = 0
     
 }
 struct EventDate: Codable{

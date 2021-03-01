@@ -1,13 +1,29 @@
 [
     {
-        "id": 4
-        "rare": 1,
+        "id": 4,
         "weponType": "sword",
         "name": "ソード-NT",
         "powerAttack": 204,
         "powerAttackMax": 275,
-        "requiredParameter": 1,
-        "potentialAbility": "新生の理"
+        "skillId": 2,
         "discription": "この武器はこのゲームの中で最も弱い武器です．"
     }
 ]
+ struct WeaponParametor: Hashable,Codable{
+     var id: Int
+     var weponType: String
+     var name: String
+     var hp: Int = 0
+     var pp: Int = 0
+     var powerAttack: Int = 0
+     var shootAttack: Int = 0
+     var magicAttack: Int = 0
+     var powerAttackMax: Int = 0
+     var shootAttackMax: Int = 0
+     var magicAttackMax: Int = 0
+     var skillId: Int = 0
+     var powerDefence: Int = 0
+     var shootDefence: Int = 0
+     var magicDefence: Int = 0
+     var catalist: String = ""
+ }

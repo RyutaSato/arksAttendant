@@ -8,8 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
-    
-    
+    let eventDates: [EventDate] = load("eventDates.json")
 //    let listNum = 5
 //    @State var boolset = false
 //    var nextEmergencyName = "原初の闇"
